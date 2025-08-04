@@ -1,0 +1,25 @@
+.cabecalho{
+    background-color: var(--color-header);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__container{
+    margin: 16px 24px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__container__menu{
+    width: 24px;
+    height: 24px;
+    background-image: url("/assets/img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.cabecalho__container__imagem{
+    padding: 1em;
+}
