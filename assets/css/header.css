@@ -11,6 +11,14 @@
     align-items: center;
 }
 
+.cabecalho__container__botao:checked~.container__rotulo>.cabecalho__container__menu{
+    background-image: url("/assets/img/Menu Aberto.svg");
+}
+
+.cabecalho__container__botao:checked~.container__rotulo {
+     background: var(--color-azul-degrade);
+}
+
 .cabecalho__container__botao{
     display: none;
 }
